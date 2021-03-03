@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica:Flexbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="layout-wrapper d-flex justify-center align-center">
+        <div class="square bg-purple"></div>
+    </div>
+    <div class="layout-wrapper d-flex justify-between flex-direction-column">
+        <div class="auxiliar-wrapper w-100 d-flex justify-between">
+            <div class="square bg-purple"></div>
+            <div class="square bg-purple"></div>
+        </div>
+        <div class="auxiliar-wrapper w-100 d-flex justify-between">
+            <div class="square bg-purple"></div>
+            <div class="square bg-purple"></div>
+        </div>
+    </div>
+    <div class="layout-wrapper d-flex justify-between flex-direction-column">
+        <div class="auxiliar-wrapper w-100 d-flex">
+            <div class="square bg-purple mx-1"></div>
+            <div class="square bg-peru mx-1"></div>
+            <div class="square bg-navy mx-1"></div>
+        </div>
+        <div class="auxiliar-wrapper w-100 d-flex justify-flex-end">
+            <div class="square bg-peru mx-1"></div>
+            <div class="square bg-purple mx-1"></div>
+            <div class="square bg-navy mx-1"></div>
+        </div>
+    </div>
+
+    <div class="layout-wrapper d-flex justify-between">
+        <div class="item bg-purple"></div>
+        <div class="auxiliar-wrapper d-flex flex-direction-row justify-around">
+            <div class="square bg-peru"></div>
+            <div class="square bg-purple "></div>
+            <div class="square bg-navy "></div>
+        </div>
+        <div class="item bg-peru"></div>
+    </div>
+    <div class="layout-wrapper ">
+    
+        <div class="auxiliar-wrapper d-flex flex-direction-row justify-between">
+            <div class="square bg-peru"></div>
+            <div class="square bg-purple rectangulo rectangulo-medio"></div>
+            <div class="square bg-navy "></div>
+        </div>
+        <div class="auxiliar-wrapper d-flex flex-direction-row justify-between">
+            <div class="square bg-peru rectangulo-medio"></div>
+            <div class="square bg-purple rectangulo-medio"></div>
+        </div>
+        <div class="auxiliar-wrapper d-flex flex-direction-row justify-around">
+            <div class="square bg-peru rectangulo"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
